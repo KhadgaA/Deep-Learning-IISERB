@@ -1,0 +1,80 @@
+Model:xception BatchSize:16 lr:0.000200
+cudnn.version:8302 enabled:True benchmark:False deterministic:True
+DFFD TrainsetR 9162
+Loaded /data2/dl/DATASETS/audio foresnsics/images/LJSpeech-1.1/wavs/train=>9162
+DFFD TrainsetF 9162
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/mixed_gen/train=>9162
+DFFD ValidsetR 1310
+DFFD ValidsetF 1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/LJSpeech-1.1/wavs/validation=>1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/mixed_gen/validation=>1310
+DFFD TestsetR 2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/LJSpeech-1.1/wavs/test=>2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/mixed_gen/test=>2620
+Loaded model
+epoch: 0
+epoch:000 batch:000800 loss:0.03282 avgloss:0.0428700 time:0.34178
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch: 11146 loss:0.04294 avgloss:0.04192 lr:0.000200 time:0.1998
+epoch:001 batch:001600 loss:0.03798 avgloss:0.0413300 time:0.3013
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch: 22292 loss:0.04236 avgloss:0.04089 lr:0.000200 time:0.1981
+epoch:002 batch:002400 loss:0.04262 avgloss:0.0408500 time:0.4700
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch:002 batch:003200 loss:0.03718 avgloss:0.0406300 time:0.2916
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch: 33438 loss:0.03931 avgloss:0.04058 lr:0.000200 time:0.1910
+epoch:003 batch:004000 loss:0.03880 avgloss:0.0404900 time:0.2861
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch: 44584 loss:0.03935 avgloss:0.04042 lr:0.000200 time:0.1414
+epoch:004 batch:004800 loss:0.03909 avgloss:0.0404000 time:0.2720
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch:004 batch:005600 loss:0.03930 avgloss:0.0403400 time:0.2590
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch: 55730 loss:0.04048 avgloss:0.04034 lr:0.000200 time:0.1715
+epoch:005 batch:006400 loss:0.03785 avgloss:0.0403000 time:0.2951
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch: 66876 loss:0.04023 avgloss:0.04039 lr:0.000200 time:0.1429
+epoch:006 batch:007200 loss:0.03773 avgloss:0.0403700 time:0.2935
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch:006 batch:008000 loss:0.04005 avgloss:0.0403200 time:0.2670
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch: 78022 loss:0.04045 avgloss:0.04032 lr:0.000200 time:0.1538
+epoch:007 batch:008800 loss:0.04261 avgloss:0.0402800 time:0.2498
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch: 89168 loss:0.03922 avgloss:0.04027 lr:0.000200 time:0.1519
+epoch:008 batch:009600 loss:0.03910 avgloss:0.0402600 time:0.3254
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch: 90314 loss:0.03874 avgloss:0.04024 lr:0.000200 time:0.1518
+epoch:009 batch:010400 loss:0.04024 avgloss:0.0402300 time:0.3146
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------
+epoch:009 batch:011200 loss:0.03693 avgloss:0.0402300 time:0.2508
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/mixed_gen
+-------------------------------------------

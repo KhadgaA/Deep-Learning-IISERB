@@ -1,0 +1,245 @@
+
+Model:xception BatchSize:16 lr:0.000200
+cudnn.version:8302 enabled:True benchmark:False deterministic:True
+DFFD TrainsetR 9162
+Loaded /data2/dl/DATASETS/audio foresnsics/images/LJSpeech-1.1/wavs/train=>9162
+DFFD TrainsetF 71188
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_parallel_wavegan/train=>9170
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_multi_band_melgan/train=>9169
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/jsut_parallel_wavegan/train=>3500
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_waveglow/train=>9170
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_melgan_large/train=>9169
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_melgan/train=>9170
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_hifiGAN/train=>9170
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_full_band_melgan/train=>9170
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/jsut_multi_band_melgan/train=>3500
+DFFD ValidsetR 1310
+DFFD ValidsetF 10169
+Loaded /data2/dl/DATASETS/audio foresnsics/images/LJSpeech-1.1/wavs/validation=>1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_parallel_wavegan/validation=>1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_multi_band_melgan/validation=>1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/jsut_parallel_wavegan/validation=>500
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_waveglow/validation=>1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_melgan_large/validation=>1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_melgan/validation=>1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_hifiGAN/validation=>1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_full_band_melgan/validation=>1310
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/jsut_multi_band_melgan/validation=>499
+DFFD TestsetR 2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/LJSpeech-1.1/wavs/test=>2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_parallel_wavegan/test=>2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_multi_band_melgan/test=>2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/jsut_parallel_wavegan/test=>1000
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_waveglow/test=>2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_melgan_large/test=>2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_melgan/test=>2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_hifiGAN/test=>2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/ljspeech_full_band_melgan/test=>2620
+Loaded /data2/dl/DATASETS/audio foresnsics/images/generated_audio/jsut_multi_band_melgan/test=>1000
+Loaded model
+epoch: 0
+  0%|          | 800/500000 [06:27<65:18:55,  2.12it/s]Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:000 batch:000800 loss:0.03736 avgloss:0.05642
+AUC:0.999974 TPR_2:0.999902 TPR_3:0.999902 TPR_4:0.999902 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:0.999999 TPR_2:1.000000 TPR_3:0.999618 TPR_4:0.999618 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:0.999964 TPR_2:0.999618 TPR_3:0.998855 TPR_4:0.998092 generated_audio/ljspeech_melgan_large
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999618 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [10:51<78:49:34,  1.76it/s]AUC:0.999995 TPR_2:1.000000 TPR_3:0.999000 TPR_4:0.999000 generated_audio/jsut_multi_band_melgan
+AUC:0.999995 TPR_2:0.999958 TPR_3:0.999719 TPR_4:0.999592 Test
+-------------------------------------------
+epoch: 1
+
+  0%|          | 800/500000 [05:52<63:28:05,  2.18it/s]train.py:244: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(121)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+train.py:246: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(122)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:001 batch:000800 loss:0.04005 avgloss:0.04695
+AUC:0.999997 TPR_2:0.999902 TPR_3:0.999902 TPR_4:0.999803 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999618 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:0.999989 TPR_2:0.999618 TPR_3:0.999237 TPR_4:0.997328 generated_audio/ljspeech_melgan_large
+AUC:0.999999 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.998473 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [09:53<71:47:21,  1.93it/s]AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999000 generated_audio/jsut_multi_band_melgan
+AUC:0.999999 TPR_2:0.999958 TPR_3:0.999915 TPR_4:0.999380 Test
+-------------------------------------------
+epoch: 2
+
+  0%|          | 800/500000 [05:40<64:21:13,  2.15it/s]train.py:244: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(121)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+train.py:246: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(122)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:002 batch:000800 loss:0.04130 avgloss:0.04473
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999237 generated_audio/ljspeech_melgan_large
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [09:48<71:08:13,  1.95it/s]AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999000 generated_audio/jsut_multi_band_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999804 Test
+-------------------------------------------
+epoch: 3
+
+  0%|          | 800/500000 [06:00<62:31:48,  2.22it/s]train.py:244: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(121)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+train.py:246: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(122)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:003 batch:000800 loss:0.04553 avgloss:0.04358
+AUC:0.999999 TPR_2:1.000000 TPR_3:0.999902 TPR_4:0.999902 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan_large
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [10:03<72:55:44,  1.90it/s]AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_multi_band_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 Test
+-------------------------------------------
+epoch: 4
+
+  0%|          | 800/500000 [05:58<56:06:06,  2.47it/s]train.py:244: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(121)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+train.py:246: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(122)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:004 batch:000800 loss:0.04074 avgloss:0.04283
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan_large
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [09:57<72:16:02,  1.92it/s]AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_multi_band_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 Test
+-------------------------------------------
+epoch: 5
+
+  0%|          | 800/500000 [05:55<68:07:13,  2.04it/s]train.py:244: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(121)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+train.py:246: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(122)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:005 batch:000800 loss:0.04220 avgloss:0.04237
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:0.999999 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.997710 generated_audio/ljspeech_melgan_large
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999618 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [09:58<72:22:44,  1.91it/s]AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_multi_band_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999703 Test
+-------------------------------------------
+epoch: 6
+
+  0%|          | 800/500000 [05:52<62:15:31,  2.23it/s]train.py:244: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(121)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+train.py:246: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(122)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:006 batch:000800 loss:0.03971 avgloss:0.04211
+AUC:0.999998 TPR_2:0.999902 TPR_3:0.999902 TPR_4:0.999902 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan_large
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [09:50<71:23:01,  1.94it/s]AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_multi_band_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 Test
+-------------------------------------------
+epoch: 7
+
+  0%|          | 800/500000 [05:30<57:58:55,  2.39it/s]train.py:244: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(121)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+train.py:246: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(122)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:007 batch:000800 loss:0.04383 avgloss:0.04184
+AUC:0.999995 TPR_2:0.999902 TPR_3:0.999902 TPR_4:0.999902 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999618 generated_audio/ljspeech_melgan_large
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [09:20<67:47:40,  2.04it/s]AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_multi_band_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999958 Test
+-------------------------------------------
+epoch: 8
+
+  0%|          | 800/500000 [05:36<54:35:35,  2.54it/s]train.py:244: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(121)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+train.py:246: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(122)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:008 batch:000800 loss:0.03766 avgloss:0.04167
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999902 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:0.999999 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.998473 generated_audio/ljspeech_melgan_large
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [09:35<69:34:57,  1.99it/s]AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_multi_band_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:0.999830 Test
+-------------------------------------------
+epoch: 9
+
+  0%|          | 800/500000 [05:53<56:26:46,  2.46it/s]train.py:244: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(121)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+train.py:246: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(122)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+epoch:009 batch:000800 loss:0.04325 avgloss:0.04155
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 validset
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_multi_band_melgan/
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_parallel_wavegan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_waveglow
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan_large
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_hifiGAN
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/ljspeech_full_band_melgan
+  0%|          | 1146/500000 [09:52<71:38:55,  1.93it/s]
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 generated_audio/jsut_multi_band_melgan
+AUC:1.000000 TPR_2:1.000000 TPR_3:1.000000 TPR_4:1.000000 Test
+-------------------------------------------

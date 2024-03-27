@@ -1,0 +1,43 @@
+
+Model:xception BatchSize:16 lr:0.000200
+cudnn.version:8005 enabled:True benchmark:False deterministic:True
+DFFD TrainsetR 193599
+Loading /data2/dl/DATASETS/FakeImgDatasets/ffhq/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/ffhq/train=>10000
+Loading /data2/dl/DATASETS/FakeImgDatasets/original_sequences/youtube/c23/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/original_sequences/youtube/c23/train=>183599
+DFFD TrainsetF 312913
+Loading /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Deepfakes/c23/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Deepfakes/c23/train=>92456
+Loading /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/FaceSwap/c23/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/FaceSwap/c23/train=>73049
+Loading /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Face2Face/c23/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Face2Face/c23/train=>91143
+Loading /data2/dl/DATASETS/FakeImgDatasets/stylegan_celeba/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/stylegan_celeba/train=>10000
+Loading /data2/dl/DATASETS/FakeImgDatasets/stylegan_ffhq/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/stylegan_ffhq/train=>9999
+Loading /data2/dl/DATASETS/FakeImgDatasets/faceapp/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/faceapp/train=>6309
+Loading /data2/dl/DATASETS/FakeImgDatasets/stargan/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/stargan/train=>10000
+Loading /data2/dl/DATASETS/FakeImgDatasets/pggan_v1/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/pggan_v1/train=>9975
+Loading /data2/dl/DATASETS/FakeImgDatasets/pggan_v2/trainLoaded /data2/dl/DATASETS/FakeImgDatasets/pggan_v2/train=>9982
+DFFD ValidsetR 35293
+DFFD ValidsetF 53970
+Loading /data2/dl/DATASETS/FakeImgDatasets/ffhq/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/ffhq/validation=>999
+Loading /data2/dl/DATASETS/FakeImgDatasets/original_sequences/youtube/c23/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/original_sequences/youtube/c23/validation=>34294
+Loading /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Deepfakes/c23/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Deepfakes/c23/validation=>17318
+Loading /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/FaceSwap/c23/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/FaceSwap/c23/validation=>13679
+Loading /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Face2Face/c23/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Face2Face/c23/validation=>16976
+Loading /data2/dl/DATASETS/FakeImgDatasets/stylegan_celeba/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/stylegan_celeba/validation=>1000
+Loading /data2/dl/DATASETS/FakeImgDatasets/stylegan_ffhq/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/stylegan_ffhq/validation=>1000
+Loading /data2/dl/DATASETS/FakeImgDatasets/faceapp/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/faceapp/validation=>999
+Loading /data2/dl/DATASETS/FakeImgDatasets/stargan/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/stargan/validation=>1000
+Loading /data2/dl/DATASETS/FakeImgDatasets/pggan_v1/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/pggan_v1/validation=>998
+Loading /data2/dl/DATASETS/FakeImgDatasets/pggan_v2/validationLoaded /data2/dl/DATASETS/FakeImgDatasets/pggan_v2/validation=>1000
+DFFD TestsetR 45919
+Loading /data2/dl/DATASETS/FakeImgDatasets/ffhq/testLoaded /data2/dl/DATASETS/FakeImgDatasets/ffhq/test=>9000
+Loading /data2/dl/DATASETS/FakeImgDatasets/original_sequences/youtube/c23/testLoaded /data2/dl/DATASETS/FakeImgDatasets/original_sequences/youtube/c23/test=>36919
+Loading /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Deepfakes/c23/testLoaded /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Deepfakes/c23/test=>17738
+Loading /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/FaceSwap/c23/testLoaded /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/FaceSwap/c23/test=>14936
+Loading /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Face2Face/c23/testLoaded /data2/dl/DATASETS/FakeImgDatasets/manipulated_sequences/Face2Face/c23/test=>19181
+Loading /data2/dl/DATASETS/FakeImgDatasets/stylegan_celeba/testLoaded /data2/dl/DATASETS/FakeImgDatasets/stylegan_celeba/test=>9000
+Loading /data2/dl/DATASETS/FakeImgDatasets/stylegan_ffhq/testLoaded /data2/dl/DATASETS/FakeImgDatasets/stylegan_ffhq/test=>8997
+Loading /data2/dl/DATASETS/FakeImgDatasets/faceapp/testLoaded /data2/dl/DATASETS/FakeImgDatasets/faceapp/test=>4501
+Loading /data2/dl/DATASETS/FakeImgDatasets/stargan/testLoaded /data2/dl/DATASETS/FakeImgDatasets/stargan/test=>21913
+Loading /data2/dl/DATASETS/FakeImgDatasets/pggan_v1/testLoaded /data2/dl/DATASETS/FakeImgDatasets/pggan_v1/test=>8970
+Loading /data2/dl/DATASETS/FakeImgDatasets/pggan_v2/testLoaded /data2/dl/DATASETS/FakeImgDatasets/pggan_v2/test=>8980
+Loaded model
+epoch: 0

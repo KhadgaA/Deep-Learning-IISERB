@@ -1,0 +1,3 @@
+
+Model:xception BatchSize:16 lr:0.000200
+cudnn.version:8302 enabled:True benchmark:False deterministic:True
